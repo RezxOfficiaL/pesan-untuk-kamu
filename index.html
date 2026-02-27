@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light only" />
+    <title>Special For You</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+ <style>
+ @import url(https://fonts.googleapis.com/css2?family=Chewy&family=Handlee&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap);.btn-c button,.swal2-title,.theme-container h2{letter-spacing:1px;color:#3c3c3c}:root{color-scheme:light}*{padding:0;margin:0;box-sizing:border-box;font-family:"Sour Gummy",serif;font-weight:500}body.theme1,body.theme4{--mt-textopening:30px}body.theme2,body.theme3{--mt-textopening:45px}.container,.preload{position:fixed;top:0;left:0;right:0;bottom:0;display:flex;justify-content:center;align-items:center;background:#f6f6e2}.preload{z-index:999;gap:10px}.preload>div{height:15px;width:15px;border-radius:10px;background:#3c3c3c;animation:1s linear infinite anm-preload}.preload>div:nth-child(2){animation-delay:.15s}.preload>div:nth-child(3){animation-delay:.3s}@keyframes anm-preload{0%,100%,25%,75%{height:15px}50%{height:40px}}.container{flex-direction:column;background-image:url('https://img2.pixhost.to/images/6065/699826001_image.jpg');background-size:cover;background-position:center;background-repeat:no-repeat}.elements{z-index:-1}.elements img{position:fixed}.cloud{width:46vh}.cloud1{top:-24vh;right:-13vh}.cloud2{bottom:-18vh;left:-23vh}.star1{width:12vh;left:calc(12vw - 6vh);top:4vh}.star2{width:12vh;bottom:1vh;left:calc(60vw - 6vh)}.uwel{width:6.8vh;transform:rotate(-40deg);left:-1vw;top:50vh}.flower{width:5vh;right:2vw;top:30vh}.love{width:13vh;transform:rotate(-30deg);bottom:0;right:0}.paper-container{position:relative;width:500px;max-width:300px;aspect-ratio:76/105!important;margin-top:6vh;opacity:0}.paper-container.show{animation:.4s forwards popup-show}.paper-container>.top{position:absolute;height:50px;top:0;left:0;right:0;z-index:1;display:flex;justify-content:space-evenly;align-items:center;padding:0 12px}.paper:nth-child(2)::after,.paper:nth-child(2)::before{z-index:-1;background:rgba(0,0,0,.2);filter:blur(5px);content:"";position:absolute}.paper-container>.top>div{position:relative;width:18px;height:18px;display:flex;justify-content:space-between;align-items:end;padding:2px 2px 5px;border-bottom-right-radius:0;border-bottom-left-radius:0}.paper-container>.top>div>div{position:relative;height:45px;width:5px;border-radius:50% 50% 3px 3px;background-color:#262626;box-shadow:2px 0 5px rgba(0,0,0,.5)}.paper-container>.top>div>div>div{position:absolute;width:8px;height:18px;top:-2px;background-color:#262626;border-top-left-radius:50%;border-top-right-radius:50%}.paper-container>.top>div:first-child>div>div{left:0}.paper-container>.top>div:nth-child(8)>div>div{right:0}.paper-container>.top>div:nth-child(2)>div>div{left:0;width:7px}.paper-container>.top>div:nth-child(7)>div>div{right:0;width:7px}.paper-container>.top>div:nth-child(3)>div>div{left:0;width:6.5px}.paper-container>.top>div:nth-child(6)>div>div{right:0;width:6.5px}.paper-container>.top>div:nth-child(4)>div>div{width:6px;left:-.5px}.paper-container>.top>div:nth-child(5)>div>div{width:6px;right:-.5px}.paper-container>.top>div>div>div::before{position:absolute;content:"";height:10px;width:1.5px;background-color:#fff;border-radius:50%;opacity:.5;top:5px}.paper-container>.top>div:first-child>div>div::before{left:1px}.paper-container>.top>div:nth-child(8)>div>div::before{right:1px}.paper-container>.top>div:nth-child(2)>div>div::before,.paper-container>.top>div:nth-child(3)>div>div::before{left:1.5px}.paper-container>.top>div:nth-child(6)>div>div::before,.paper-container>.top>div:nth-child(7)>div>div::before{right:1.5px}.paper-container>.top>div:nth-child(4)>div>div::before{left:2px}.paper-container>.top>div:nth-child(5)>div>div::before{right:2px}.cover,.paper{position:absolute;top:0;left:0;right:0;bottom:0;border-radius:25px;background:#fff;transform-origin:0 -60%!important}@keyframes anm-paper-out{0%{transform:rotate(0) translateX(0) translateY(0);opacity:1}100%{transform:rotate(20deg) translateX(100px);opacity:0}}.paper:nth-child(2){box-shadow:2px 2px 0 #ededed,10px 7px 10px rgba(0,0,0,.3),15px 5px 10px transparent,0 0 10px rgba(0,0,0,.2)}.paper:nth-child(2)::before{width:calc(100% - 35px);height:50px;bottom:-10px;left:30px;border-radius:20px}.paper:nth-child(2)::after{height:calc(100% - 30px);width:100px;right:-20px;top:20px;border-radius:25px}.cover .top,.paper .top{height:50px;display:flex;justify-content:space-evenly;align-items:center;padding:0 12px}.cover .top>div,.paper .top>div{width:18px;height:18px;background:#000;box-shadow:inset 0 7px 0 #b0b0b0}.cover{background-image:var(--bg-cover);background-size:cover;background-position:center;position:relative;height:100%;overflow:hidden}.cover::before{content:"";position:absolute;height:100%;width:100%;top:0;left:0;background-image:linear-gradient(-25deg,rgba(0,0,0,.132),transparent)}.paper-content{background:linear-gradient(transparent,transparent 28px,#000 28px);background-size:30px 30px;height:calc(100% - 70px);margin:5px 20px 20px;border-top:2px solid #000}.paper-content img{height:130px;margin:auto;text-align:center;display:block;filter:drop-shadow(0 0 1px black);transition:1s;opacity:0}.paper.show .paper-content img{animation:.8s .8s forwards anm-img-in}@keyframes anm-img-in{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}.paper-content .text{font-size:1.1rem;padding:0 10px;line-height:30px;height:180px;overflow-y:auto;margin-top:20px}.paper.oimg .paper-content{display:flex;justify-content:center;align-items:center;height:calc(100% - 82px)}.paper.oimg .paper-content img{transform:translateY(-10px)}.paper.otxt .paper-content .text{height:calc(100% - 14px);margin-top:0}.cover .text-opening{text-align:center;margin-top:var(--mt-textopening);font-size:1.4rem;font-weight:600;color:#262626}.btn-c{margin-top:20px;transition:.7s}.btn-c button{border-radius:10px;border:3px solid #3c3c3c;box-shadow:2px 2px 0 #3c3c3c;background:pink;padding:8px 15px;font-size:1.2rem;font-weight:600}.btn-c button:active{transform:scale(.95) translateY(2px);box-shadow:0 0 0 #3c3c3c}.btn-c button:not(.show){display:none}.btn-c:not(.show){transform:translateY(50px);opacity:0}@keyframes popup-show{0%{opacity:1;transform:scale(.7)}45%{opacity:1;transform:scale(1.05)}80%{opacity:1;transform:scale(.95)}100%{opacity:1;transform:scale(1)}}@media only screen and (min-height:1000px){.btn-c,.paper-container{transform:scale(1.5)}@keyframes popup-show{0%{opacity:1;transform:scale(calc(.7 * 1.5))}45%{opacity:1;transform:scale(calc(1.05 * 1.5))}80%{opacity:1;transform:scale(calc(.95 * 1.5))}100%{opacity:1;transform:scale(calc(1 * 1.5))}}.btn-c{margin-top:150px}}@media only screen and (max-height:600px) and (max-width:320px){@keyframes popup-show{0%{opacity:1;transform:scale(calc(.7 * .8))}45%{opacity:1;transform:scale(calc(1.05 * .8))}80%{opacity:1;transform:scale(calc(.95 * .8))}100%{opacity:1;transform:scale(calc(1 * .8))}}.paper-container{transform:scale(.8)}.btn-c{margin-top:-20px}}@media only screen and (min-width:500px){.cloud{width:70vh}.cloud1{top:-37vh;right:-20vh}.cloud2{bottom:-28vh;left:-34vh}.star1{width:20vh;left:calc(10vw - 10vh);top:10vh}.star2{width:18vh;bottom:1vh;left:calc(70vw - 9vh)}.uwel{width:10vh;transform:rotate(-40deg);left:calc(20vw - 5vh);top:43vh}.flower{width:10vh;right:calc(20vw - 5vh);top:30vh}.love{width:18vh;transform:rotate(-30deg);bottom:0;right:0}}.cover.hide,.paper.hide{transition:.7s ease-out;opacity:0;box-shadow:3px 3px 10px rgba(0,0,0,.422)!important;transform:rotate(20deg) translateX(100px)}.theme-container{position:fixed;top:0;left:0;right:0;bottom:0;display:flex;justify-content:center;align-items:center;flex-direction:column;background-color:#f6f6e2}.theme-container h2{font-weight:700}.theme-handler{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;align-items:center;margin-top:20px}.btn-theme{width:40vw;max-width:170px}.btn-theme img{width:100%;border-radius:20px}.theme-container p{font-size:1.2rem;margin-top:20px;color:#3c3c3c}.theme-container p span{font-family:sans-serif}.swal2-popup{background:#f6f6e2;border-radius:20px;padding-top:10px;padding-bottom:25px}.swal2-title{font-size:1.5rem}.swal2-popup textarea{resize:none;background:#fff;box-shadow:inset 2px 2px 5px rgba(0,0,0,.263),1px 1px 2px #fff!important;border-radius:10px}.swal2-actions button{border-radius:10px!important;border:3px solid #3c3c3c!important;box-shadow:2px 2px 0 #3c3c3c!important;background:pink!important;color:#3c3c3c!important;padding:8px 15px;font-size:1.2rem!important;letter-spacing:1px;font-weight:600}.swal2-actions button:active{transform:scale(.95) translateY(2px);box-shadow:0 0 0 #3c3c3c!important}
+ </style>
+  </head>
+  <body class="theme1">
+    <div class="preload">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="container">
+      <div class="btn-c">
+        <button class="btn-start show">Klik Disini</button>
+        <button class="btn-next">Lanjut</button>
+        <button class="btn-message">Kirim Pesan</button>
+      </div>
+    </div>
+
+    <div class="theme-container">
+      <h2>Pilih Cover Notebook</h2>
+      <div class="theme-handler">
+        <div class="btn-theme">
+          <img src="https://giftycreative.com/asset/205/nb1.webp" />
+        </div>
+        <div class="btn-theme">
+          <img src="https://giftycreative.com/asset/205/nb2.webp" />
+        </div>
+        <div class="btn-theme">
+          <img src="https://giftycreative.com/asset/205/nb3.webp" />
+        </div>
+        <div class="btn-theme">
+          <img src="https://giftycreative.com/asset/205/nb4.webp" />
+        </div>
+      </div>
+      <p><span>*</span> Bisa custom pake foto</p>
+    </div>
+
+    <script>
+// ================== KONFIGURASI TELEGRAM ==================
+// GANTI DENGAN BOT TOKEN DAN CHAT ID KAMU
+const TELEGRAM_BOT_TOKEN = "8549085409:AAFUeyiAaaC0sLQrw1rLnPQCKPC_bivlKT8"; // Contoh: "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
+const TELEGRAM_CHAT_ID = "7845484340"; // Contoh: "123456789"
+// ===========================================================
+
+var klikA = new Audio("https://dekatutorial.github.io/ct/klk.mp3");
+klikA.autoplay = false;
+klikA.loop = false;
+
+// Fungsi baru untuk mengirim pesan ke Telegram
+async function sendToTelegram(pesan) {
+  const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+  const data = {
+    chat_id: TELEGRAM_CHAT_ID,
+    text: pesan,
+    parse_mode: "HTML" // Agar bisa pakai format teks sederhana jika diperlukan
+  };
+
+  try {
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    });
+
+    const result = await response.json();
+    if (result.ok) {
+      return { success: true };
+    } else {
+      console.error("Telegram API Error:", result);
+      return { success: false, error: result.description };
+    }
+  } catch (error) {
+    console.error("Network Error:", error);
+    return { success: false, error: error.message };
+  }
+}
+
+function DekaTutorial(_0xe35fb4, _0x5a6ac2, _0x1429b8, _0x453ebf, _0x536322, _0x391449) {
+  const _0x7c934 = document.querySelector(".container");
+  const _0x477f86 = document.querySelector(".btn-c");
+  const _0x56325f = document.querySelector(".btn-start");
+  const _0x5af207 = document.querySelector(".btn-next");
+  const _0x49d6f8 = document.querySelector(".btn-message");
+  const _0x359ec9 = document.createElement("div");
+  _0x359ec9.className = "elements";
+  _0x359ec9.innerHTML = "<img src=\"\" class=\"cloud cloud1\" />\n          <img src=\"\" class=\"cloud cloud2\" />\n          <img src=\"https://giftycreative.com/asset/205/star.svg\" class=\"star1\" />\n          <img src=\"https://giftycreative.com/asset/205/star2.svg\" class=\"star2\" />\n          <img src=\"https://giftycreative.com/asset/205/uwel.png\" class=\"uwel\" />\n          <img src=\"https://giftycreative.com/asset/205/love.png\" class=\"love\" />\n          <img src=\"https://giftycreative.com/asset/205/flower.svg\" class=\"flower\" />";
+  const _0x3b7661 = document.createElement("div");
+  _0x3b7661.className = "paper-container";
+  _0x7c934.insertBefore(_0x359ec9, _0x477f86);
+  _0x7c934.insertBefore(_0x3b7661, _0x477f86);
+  const _0x1bfc3e = new Audio(_0x5a6ac2);
+  _0x1bfc3e.autoplay = true;
+  _0x1bfc3e.loop = true;
+  let _0x11a7ec = "";
+  for (let _0x50f470 = _0xe35fb4.length - 1; _0x50f470 >= 0; _0x50f470--) {
+    let _0x3886e1 = "";
+    let _0x5ea6ad = "";
+    let _0x3160b0 = "";
+    if (typeof _0xe35fb4[_0x50f470].gambar != "undefined") {
+      _0x3886e1 = "<img src=\"" + _0xe35fb4[_0x50f470].gambar + "\" />";
+    } else {
+      _0x3160b0 = "otxt";
+    }
+    if (typeof _0xe35fb4[_0x50f470].ucapan != "undefined") {
+      _0x5ea6ad = "<div class=\"text text" + _0x50f470 + "\"></div>";
+    } else {
+      _0x3160b0 = "oimg";
+    }
+    pHtml = "<div class=\"paper " + _0x3160b0 + "\">\n          <div class=\"top\">\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n          </div>\n          <div class=\"paper-content\">\n            " + _0x3886e1 + "\n            " + _0x5ea6ad + "\n          </div>\n        </div>";
+    _0x11a7ec += pHtml;
+  }
+  html = "<div class=\"top\">\n          <div>\n            <div>\n              <div></div>\n            </div>\n            <div>\n              <div></div>\n            </div>\n          </div>\n          <div>\n            <div>\n              <div></div>\n            </div>\n            <div>\n              <div></div>\n            </div>\n          </div>\n          <div>\n            <div>\n              <div></div>\n            </div>\n            <div>\n              <div></div>\n            </div>\n          </div>\n          <div>\n            <div>\n              <div></div>\n            </div>\n            <div>\n              <div></div>\n            </div>\n          </div>\n          <div>\n            <div>\n              <div></div>\n            </div>\n            <div>\n              <div></div>\n            </div>\n          </div>\n          <div>\n            <div>\n              <div></div>\n            </div>\n            <div>\n              <div></div>\n            </div>\n          </div>\n          <div>\n            <div>\n              <div></div>\n            </div>\n            <div>\n              <div></div>\n            </div>\n          </div>\n          <div>\n            <div>\n              <div></div>\n            </div>\n            <div>\n              <div></div>\n            </div>\n          </div>\n        </div>\n        " + _0x11a7ec + "\n        <div class=\"cover\">\n          <div class=\"top\">\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n            <div></div>\n          </div>\n          <div class=\"text-opening\" >" + _0x1429b8 + "</div>\n        </div>";
+  const _0x9f23d = document.querySelector(".paper-container");
+  _0x9f23d.innerHTML = html;
+  const _0x23de5a = document.querySelector(".cover");
+  const _0x2a6aae = document.querySelectorAll(".paper");
+  let _0x40672e = 0;
+  function _0x7c19a2() {
+    _0x1bfc3e.play();
+    if (_0x536322) {
+      klikA.play();
+    }
+    if (_0x40672e < _0xe35fb4.length) {
+      _0x2a6aae[_0xe35fb4.length - _0x40672e - 1].classList.add("show");
+      if (typeof _0xe35fb4[_0x40672e].ucapan != "undefined") {
+        const _0x11b4c2 = _0x40672e;
+        setTimeout(() => {
+          _0x11860f(_0xe35fb4[_0x11b4c2].ucapan, ".text" + _0x11b4c2, () => {});
+        }, 1200);
+      }
+    }
+    if (_0x40672e == 0) {
+      _0x23de5a.classList.add("hide");
+      _0x477f86.classList.remove("show");
+      setTimeout(() => {
+        _0x56325f.classList.remove("show");
+        _0x5af207.classList.add("show");
+        _0x477f86.classList.add("show");
+      }, 700);
+      setTimeout(() => {
+        _0x23de5a.remove();
+      }, 700);
+    } else if (_0x40672e < _0xe35fb4.length) {
+      _0x2a6aae[_0xe35fb4.length - _0x40672e].classList.add("hide");
+      const _0x1d1cf5 = _0xe35fb4.length - _0x40672e;
+      setTimeout(() => {
+        _0x2a6aae[_0x1d1cf5].style = "display: none";
+      }, 700);
+    }
+    _0x40672e++;
+    if (_0x40672e == _0xe35fb4.length) {
+      _0x477f86.classList.remove("show");
+      setTimeout(() => {
+        _0x5af207.classList.remove("show");
+        _0x49d6f8.classList.add("show");
+        _0x477f86.classList.add("show");
+      }, 700);
+    }
+  }
+  _0x56325f.onclick = _0x7c19a2;
+  _0x5af207.onclick = _0x7c19a2;
+  _0x49d6f8.onclick = _0x453ebf;
+  const _0x241e32 = document.querySelectorAll(".btn-theme");
+  const _0x628551 = document.querySelector(".theme-container");
+  for (let _0x23ad60 = 0; _0x23ad60 < _0x241e32.length; _0x23ad60++) {
+    _0x241e32[_0x23ad60].onclick = () => {
+      _0x1bfc3e.play();
+      if (_0x536322) {
+        klikA.play();
+      }
+      const _0x4818ba = _0x241e32[_0x23ad60].querySelector("img").src;
+      document.querySelector("body").className = "theme" + (_0x23ad60 + 1);
+      document.querySelector("body").style = "--bg-cover: url('" + _0x4818ba + "')";
+      _0x628551.style = "transition: .5s ease all; opacity: 0";
+      setTimeout(() => {
+        _0x628551.remove();
+      }, 500);
+      setTimeout(() => {
+        _0x9f23d.classList.add("show");
+      }, 500);
+      setTimeout(() => {
+        _0x477f86.classList.add("show");
+      }, 1000);
+    };
+  }
+  if (_0x391449 != "") {
+    _0x628551.remove();
+    document.querySelector("body").style = "--bg-cover: url('" + _0x391449 + "')";
+  }
+  function _0x11860f(_0x3067af, _0x3692f7, _0x5f4140) {
+    let _0x1251af = 0;
+    const _0x267163 = 80;
+    _0x466725(_0x3067af, _0x3692f7);
+    function _0x466725(_0x52f0f7, _0x5ab89e) {
+      let _0x5b763a = document.querySelector(_0x5ab89e);
+      if (_0x1251af < _0x52f0f7.length) {
+        let _0x230555 = _0x52f0f7.charAt(_0x1251af);
+        if (_0x230555 == "#") {
+          _0x230555 = "<br>";
+        }
+        _0x5b763a.innerHTML += _0x230555;
+        _0x1251af++;
+        setTimeout(() => {
+          _0x466725(_0x52f0f7, _0x5ab89e);
+        }, _0x267163);
+        _0x5b763a.scrollTop = _0x5b763a.scrollHeight;
+      } else {
+        _0x5f4140();
+      }
+    }
+  }
+  window.onload = () => {
+    const _0x11b369 = document.querySelector(".preload");
+    _0x11b369.style = "transition: .5s ease all; opacity: 0";
+    setTimeout(() => {
+      _0x11b369.remove();
+    }, 500);
+    if (_0x391449 != "") {
+      setTimeout(() => {
+        _0x9f23d.classList.add("show");
+      }, 500);
+      setTimeout(() => {
+        _0x477f86.classList.add("show");
+      }, 1000);
+    }
+  };
+}
+coverImg = "https://img2.pixhost.to/images/6065/699828393_image.jpg";
+textOpening = "";
+musik = "https://files.catbox.moe/fxs3vi.m4a";
+isKlikAudio = 1;
+konten = [{
+  ucapan: "haii dedee👋...#####dedee gimanaa kabarnya sekarang? #aku harap baik baik saja yaaa"
+}, {
+  ucapan: "dedee belakangan ini aku selalu kepikiran dedee tauu, mungkin gara gara kangen banget hehehe. dari bangun tidur kepikiran dedee mulu padahal kan udah jadi mantan 🤭🤭."
+}, {
+  ucapan: "aku kangen banget chatan sama dedee cerita sama dedee, pergi main sama dedee. rasanya pengen balik ke masa itu, terus kita ulangi semuanyaa hehehe"
+}, {
+  ucapan: "dedee jangan yang aneh aneh lagi yaa, ouhh iyaaa dedee jangan lupaa mam yaa nanti kalau dedee gaa mam nanti dedee atitt, dedee harus ingat kesehatan tu nomor satu☝🏻. dedee jaga kesehatannya yaa"
+}, {
+  ucapan: "dedee kalau lagi ada masalah atau butuh sesuatu chat aja aku, aku selalu ada buat dedee kok. yaudah mungkin itu aja yang mau aku bilang"
+}];
+var swalo = Swal.mixin({
+  allowOutsideClick: false,
+  reverseButtons: true
+});
+
+// Fungsi kirimPesan yang dimodifikasi untuk Telegram
+async function kirimPesan() {
+  klikA.play();
+
+  // Tampilkan dialog untuk menulis pesan
+  var { value: pesan } = await swalo.fire({
+    title: "Tulis pesan di sini ",
+    input: "textarea",
+    confirmButtonText: "Kirim",
+    showCancelButton: true,
+    cancelButtonText: "Batal"
+  });
+
+  klikA.play();
+
+  // Jika user membatalkan atau tidak menulis pesan
+  if (pesan === undefined) {
+    return;
+  }
+
+  if (!pesan) {
+    await swalo.fire({
+      icon: "warning",
+      title: "Pesan tidak boleh kosong!"
+    });
+    kirimPesan(); // Minta input lagi
+    return;
+  }
+
+  // Tampilkan loading
+  swalo.fire({
+    title: "Mengirim pesan ke ...",
+    didOpen: () => {
+      swalo.showLoading();
+    }
+  });
+
+  // Kirim ke Telegram
+  const result = await sendToTelegram(pesan);
+
+  if (result.success) {
+    await swalo.fire({
+      icon: "success",
+      title: "Pesan berhasil dikirim!",
+      text: "Pesanmu sudah terkirim."
+    });
+  } else {
+    await swalo.fire({
+      icon: "error",
+      title: "Gagal Mengirim",
+      text: `Error: ${result.error || "Terjadi kesalahan jaringan"}`
+    });
+  }
+  klikA.play();
+}
+
+DekaTutorial(konten, musik, textOpening, kirimPesan, isKlikAudio, coverImg);
+    </script>
+  </body>
+</html>
